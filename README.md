@@ -1,5 +1,7 @@
 # W&W Agent CLI
 
+https://github.com/user-attachments/assets/f8637e5a-4bc7-40c1-b0b7-981a3c10913e
+
 > 跑在你电脑上的多智能体 AI 助手——读写文件、执行命令、上网搜索、看图、接飞书/QQ 当机器人，支持远程 Agent 协作。(此页作为展示页，只提供部分代码）
 
 ---
@@ -608,4 +610,3 @@ W&W Agent/
 ```
 
 ---
-
