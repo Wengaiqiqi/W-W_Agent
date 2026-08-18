@@ -1,4 +1,4 @@
-# W&W Agent CLI
+# W&W Agent
 
 https://github.com/user-attachments/assets/f8637e5a-4bc7-40c1-b0b7-981a3c10913e
 
