@@ -14,7 +14,8 @@ prompt_toolkit>=3.0.0
 pydantic>=2.0               # planner decision validation (orchestrator/turns.py, web/app.py)
 
 # Multi-agent refactor dependencies
-mcp>=1.0.0
+# <2: 2.0.0 removed the low-level Server.list_tools()/call_tool() decorators we use (mcp_server.py)
+mcp>=1.29.0,<2
 a2a-sdk>=0.2.0              # declared for A2A interop; protocol currently hand-rolled on starlette
 pyjwt>=2.8.0
 httpx>=0.27.0
