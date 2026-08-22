@@ -2,6 +2,7 @@
 """启动所有服务：hermes, A2A, W&W Agent 飞书 Gateway"""
 
 import paramiko
+import os
 import sys
 import io
 import time
@@ -10,9 +11,11 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 def main():
-    hostname = "47.86.26.185"
-    username = "root"
-    password = "Ydmy5247."
+    hostname = os.getenv("WW_HOST", "47.86.26.185")
+    username = os.getenv("WW_USER", "root")
+    password = os.getenv("WW_PASS")
+    if not password:
+        raise SystemExit("错误: 请设置环境变量 WW_PASS 提供服务器密码")
 
     client = paramiko.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
