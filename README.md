@@ -1,6 +1,6 @@
 # W&W Agent
 
-https://github.com/user-attachments/assets/444b3dd5-dc7a-4a0e-83f9-70cf1641002f
+https://github.com/user-attachments/assets/db0bddde-87e3-456b-8813-bb47f2eef3b5
 
 > 跑在你电脑上的多智能体 AI 助手——读写文件、执行命令、上网搜索、看图、接飞书/QQ 当机器人，支持远程 Agent 协作。
 
